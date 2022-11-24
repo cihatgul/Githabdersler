@@ -72,6 +72,7 @@ public class C03_LinkedListSoru {
                     break;
                 }else{
                     System.out.println("Not icin sayisal degerler girmelisiniz");
+
                 }
             }
         }

@@ -14,18 +14,22 @@ public class C15_Test {
         System.out.println("Emrah "+age2);
 
         // saga tiklayip Refactor'den Extract method'a gelirsek bu secili olanlarin hepsini methoda atar
-        
-        String std3="Semih"; 
+
+        String std3="Semih";
         int birhYear3=1985;
         int age3=calculateage(birhYear3);
         System.out.println("Semih "+age3);
 
     }
 
-
     public static int calculateage(int birtYear){
-        System.out.println(2022-birtYear);
 
-        return birtYear;
+        return 2022-birtYear;
+    }
+    public static void print(){
+        System.out.println("hello");
+    }
+    public static void print2(){
+        print();
     }
 }

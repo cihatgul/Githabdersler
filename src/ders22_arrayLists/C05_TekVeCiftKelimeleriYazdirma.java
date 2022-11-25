@@ -3,7 +3,7 @@ package ders22_arrayLists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C05_ForEachLoop {
+public class C05_TekVeCiftKelimeleriYazdirma {
 
     public static void main(String[] args) {
         //Soru 3- Verilen String bir array’deki her bir elementi kontrol edip,

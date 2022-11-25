@@ -1,6 +1,6 @@
 package ders22_arrayLists;
 
-public class C04_ForEachLoop {
+public class C04_BestenBuyukSayilarinToplami {
 
     public static void main(String[] args) {
 

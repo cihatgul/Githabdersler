@@ -7,6 +7,9 @@ public class C02_Maps {
 
         Map<Integer,String> ogrenciMap=MapDepo.ornekMapOlustur();
 
+        // burada 105=Hasan-Can-11-K-MF, bu klasorde degistirdik
+        // 108=Hikmet-Han-10-M-TM buda olmadigi icin listeye ekledik bunu
+
         ogrenciMap.put(105,"Hasan-Can-11-K-MF");
         ogrenciMap.put(108, "Hikmet-Han-10-M-TM");
 
@@ -33,5 +36,6 @@ public class C02_Maps {
 //
 //        int ogrenciKey=109;
 //        boolean sonuc=MapDepo.ogrenciyeYeniSubeAta(ogrenciMap,ogrenciKey);
+
     }
 }

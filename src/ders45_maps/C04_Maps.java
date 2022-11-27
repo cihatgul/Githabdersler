@@ -30,7 +30,5 @@ public class C04_Maps {
 
         System.out.println(isimListesi);
 
-
-
     }
 }

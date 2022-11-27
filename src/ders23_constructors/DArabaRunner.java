@@ -20,7 +20,6 @@ public class DArabaRunner {
         arb1.yil=1991;
         arb1.fiyat=50000;
 
-
         System.out.println(arb1.marka); // Tofas
         System.out.println(arb1.model); // Kartal
         System.out.println(arb1.yakit); // Benzin

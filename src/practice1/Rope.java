@@ -1,4 +1,4 @@
-package ders24_constructors;
+package practice1;
 
 public class Rope {
 
@@ -6,26 +6,21 @@ public class Rope {
         this("Hasan");
 
     }
-
     Rope(String isim){
 
     }
-
     Rope(int sayi){
 
     }
-
     Rope(int sayi1,int sayi2){
 
     }
-
-    public void swing(){
+    void swing(){
         System.out.println("swing");
     }
 
     public static void main(String[] args) {
-
-        Rope rope=null;
+        ders24_constructors.Rope rope=null;
         rope.swing();
 
     }

@@ -1,29 +1,33 @@
-package ders23_constructors;
+package practice1;
 
-public class HAraba {
+public class C22_HAraba {
+
     String marka="Marka belirtilmedi";
     String model="Model belirtilmedi";
     String yakit;
     int yil;
     int fiyat;
 
-    public HAraba(String mrk,String mdl, String ykt , int yl , int fyt){
+    public C22_HAraba(String mrk, String mdl, String ykt, int yl, int fyt){
 
         marka=mrk;
         model=mdl;
         yakit=ykt;
         yil=yl;
         fiyat=fyt;
+
     }
 
-    public HAraba(String mrk,String mdl,int yl){
+    public C22_HAraba(String mrk, String mdl, int yl){
         // istersek parametreleri azaltarak da constructor olusturabiliriz
         marka=mrk;
         model=mdl;
         yil=yl;
+
     }
 
-    public HAraba(){
+    public C22_HAraba(){
+
         // gorunur durumdaki parametresiz constructor
         // default constructor DEGILDIR
         // Default constructor'in body'si de bos olur
@@ -32,21 +36,20 @@ public class HAraba {
         // parametresiz constructor'in body'sinde kod yoksa
         // default constructor ile ayni islevi gorur
         // ama yine de gorunur durumdaysa default cons. denmez
+
     }
-
-    // biz gozle gorunur herhangi bir constructor olusturdugumuzda
-    // Java default constructor'i siler
-    // Bu durumda daha once olusturulmus olan objelerin sorun olmamasi icin
-    // class'a parametresiz bir constructor eklememiz faydali olur
-
+        // biz gozle gorunur herhangi bir constructor olusturdugumuzda
+        // Java default constructor'i siler
+        // Bu durumda daha once olusturulmus olan objelerin sorun olmamasi icin
+        // class'a parametresiz bir constructor eklememiz faydali olur
 
     public String toString() {
-        return "Araba Ozellikleri " +
-                "\nmarka : " + marka +
-                "\nmodel : " + model +
-                "\nyakit : " + yakit +
-                "\nyil : " + yil +
-                "\nfiyat : " + fiyat ;
+        return "Araba Ozellikleri "+
+                "\nmarka : "+marka+
+                "\nmodel : "+model+
+                "\nyakit : "+yakit+
+                "\nyil   : "+yil+
+                "\nfiyat : "+fiyat ;
 
     }
 

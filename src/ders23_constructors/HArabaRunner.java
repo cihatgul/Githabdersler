@@ -19,7 +19,6 @@ public class HArabaRunner {
         HAraba arb3=new HAraba("Opel","Corsa","Dizel",2013,10000);
         System.out.println(arb3);
 
-
         HAraba arb4= new HAraba("Tesla","x",2020);
         System.out.println(arb4);
 

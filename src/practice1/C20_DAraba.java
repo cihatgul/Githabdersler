@@ -1,6 +1,6 @@
-package ders23_constructors;
+package practice1;
 
-public class DAraba {
+public class C20_DAraba {
 
     // bir proje olusturulurken tum classlarda main method olmasina gerek yoktur
     // cogu class obje olusturularak kullanilmak uzere hazirlanmis depolardir
@@ -23,7 +23,7 @@ public class DAraba {
                 "\nmodel : " +model+
                 "\nyakit : " +yakit+
                 "\nyil : "   +yil+
-                "\nfiyat : " +fiyat;
+                "\nfiyat : " +fiyat ;
 
     }
 

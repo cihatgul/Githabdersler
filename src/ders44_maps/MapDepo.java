@@ -58,6 +58,7 @@ public class MapDepo {
 
     }
 
+
     public static void subeOgrenciBilgileriniYazdir(Map<Integer, String> ogrenciMap, String subeAdi) {
 
         Collection<String> valueCollection = ogrenciMap.values();

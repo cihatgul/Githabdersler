@@ -6,6 +6,7 @@ public class Araba {
     String model="Model belirtilmedi";
     String yakit;
     int yil;
+    int fiyat;
 
     public Araba(String marka, String model, String yakit, int yil, int fiyat) {
         this.marka = marka;
@@ -15,7 +16,7 @@ public class Araba {
         this.fiyat = fiyat;
     }
 
-    int fiyat;
+
 
     public Araba (String mrk,String mdl){
         marka=mrk;
@@ -33,12 +34,12 @@ public class Araba {
     }
 
     public String toString() {
-        return "Araba Ozellikleri " +
-                "\nmarka : " + marka +
-                "\nmodel : " + model +
-                "\nyakit : " + yakit +
-                "\nyil : " + yil +
-                "\nfiyat : " + fiyat ;
+        return "Araba Ozellikleri "+
+                "\nmarka : "+marka+
+                "\nmodel : "+model+
+                "\nyakit : "+yakit+
+                "\nyil   : "+yil+
+                "\nfiyat : "+fiyat;
 
     }
 }

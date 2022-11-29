@@ -1,13 +1,12 @@
-package ders44_maps;
+package Maps;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class C01_Maps {
 
     public static void main(String[] args) {
 
-        Map<Integer,String> ogrenciMap = MapDepo.ornekMapOlustur();
+        Map<Integer,String> ogrenciMap = Maps.MapDepo.ornekMapOlustur();
 
         System.out.println(ogrenciMap);
 
@@ -30,5 +29,6 @@ public class C01_Maps {
 
         String isimSoyisim= MapDepo.isimSoyisimDondur(ogrenciMap,ogrenciKey);
         System.out.println(ogrenciKey + "'nolu ogrenci isim ve soyismi : " + isimSoyisim);
+
     }
 }

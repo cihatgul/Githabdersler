@@ -15,7 +15,6 @@ public class ArabaRunner {
         System.out.println(arb1);
 
         Araba arb2= new Araba("Volvo","CX60");
-
         System.out.println(arb2);
 
         Araba arb3= new Araba("Hyundai","i10",10000);

@@ -11,14 +11,14 @@ public class C02_contains {
         Map<Integer,String> ogrenciMap = MapDepo.ornekMapOlustur();
 
         System.out.println(ogrenciMap);
+
         /*
-            {
-            101=Ali-Can-10-H-MF,
-            102=Veli-Cem-11-M-Soz,
-            103=Ali-Cem-11-H-TM,
-            104=Ayse-Can-10-H-MF,
-            105=Ayse-Cem-11-M-TM,
-            106=Fatma-Han-10-K-Soz}
+        {101=Ali-Can-10-H-MF,
+        102=Veli-Cem-11-M-Soz,
+        103=Ali-Cem-11-H-TM,
+        104=Ayse-Can-10-H-MF,
+        105=Ayse-Cem-11-M-TM,
+        106=Fatma-Han-10-K-Soz}
          */
 
         System.out.println(ogrenciMap.containsKey(105)); // true
@@ -28,12 +28,10 @@ public class C02_contains {
         System.out.println(ogrenciMap.containsValue("Veli-Cem-11-M-Soz")); // true
         System.out.println(ogrenciMap.containsValue("Veli-Cem-11-M-Soy")); // false
 
-
         /*
-          containsValue("arananDeger") value'lerin icerisindeki bir bolumu aramaz
-          value'su butun olarak arananDeger olan var mi diye bakar
+        containsValue("arananDeger") value'lerin icerisindeki bir bolumu aramaz
+        value'su butun olarak arananDeger olan var mi diye bakar
          */
-
 
     }
 }

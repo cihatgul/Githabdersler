@@ -19,6 +19,5 @@ public class  C03_SoyisimleriBuyukHarfYap{
 
         System.out.println(ogrenciMapi);
 
-
     }
 }

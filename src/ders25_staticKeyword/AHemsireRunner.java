@@ -17,8 +17,8 @@ public class AHemsireRunner {
         h2.personelTelefon="3124323232";
         h2.bashekimIsmi="Yasar Kemal";
 
-        System.out.println("h1 : " + h1);
-        System.out.println("h2 : " + h2);
+        System.out.println("h1 : "+h1);
+        System.out.println("h2 : "+h2);
 
         AHemsire h3=new AHemsire();
         System.out.println("h3 : "+h3);

@@ -24,15 +24,13 @@ public class C02_EntrySet {
         System.out.println(siraliOgrenciListesi);
 
         /*
-        [
-        MF, 10, H, Ali Can, 101,
+        [MF, 10, H, Ali Can, 101,
         MF, 10, H, Ayse Can, 104,
         Soz, 10, K, Fatma Han, 106,
         Soz, 11, D, Adem Demir, 109,
         Soz, 11, M, Veli Cem, 102,
         TM, 11, H, Ali Cem, 103,
-        TM, 11, M, Ayse Cem, 105
-        ]
+        TM, 11, M, Ayse Cem, 105]
          */
 
     }

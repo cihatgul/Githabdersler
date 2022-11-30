@@ -46,17 +46,13 @@ public class C03_compute {
         mp1.computeIfAbsent("E", v->8);
         System.out.println(mp1); // {A=0, B=6, C=10, D=11, E=8}
 
-
         // E'nin degerini 4 artir
 
         mp1.compute("E", (k,v)-> v+4);
         System.out.println(mp1); // {A=0, B=6, C=10, D=11, E=12}
 
-
         mp1.compute("R", (k,v)-> v=3);
         System.out.println(mp1); // {A=0, R=3, B=6, C=10, D=11, E=12}
-
-
 
         mp1.compute("F", (k,v)-> v*3);  // NullPointerException
         System.out.println(mp1);

@@ -24,33 +24,30 @@ public class C01_EntrySet {
         ogrenciMap.put(108, "Mehmet-Erkan-12-K-MF");
 
         /*
-            {
-            101=Ali-Can-10-H-MF,
-            102=Veli-Cem-11-M-Soz,
-            103=Ali-Cem-11-H-TM,
-            104=Ayse-Can-10-H-MF,
-            105=Ayse-Cem-11-M-TM,
-            106=Fatma-Han-10-K-Soz
-            }
+        {101=Ali-Can-10-H-MF,
+        102=Veli-Cem-11-M-Soz,
+        103=Ali-Cem-11-H-TM,
+        104=Ayse-Can-10-H-MF,
+        105=Ayse-Cem-11-M-TM,
+        106=Fatma-Han-10-K-Soz}
          */
 
         Set<Map.Entry<Integer,String>> ogrenciEntrySeti =ogrenciMap.entrySet();
         System.out.println(ogrenciEntrySeti);
 
         /*
-            [
-            101=Ali-Can-10-H-MF,
-            102=Veli-Cem-11-M-Soz,
-            103=Ali-Cem-11-H-TM,
-            104=Ayse-Can-10-H-MF,
-            105=Ayse-Cem-11-M-TM,
-            106=Fatma-Han-10-K-Soz
-            ]
-            aralarindaki farklar
-            1- yukaridaki map, bu Set
-            2- yukaridakinde {} kullaniyor, bu ise [ ]
-            3- yukaridakinde key ve value'ler her eleman icin bir arada ama ayri ayri bireyler
-               Entry'de ise K=V  ikisi birlikte bir element olusturuyor
+        [101=Ali-Can-10-H-MF,
+        102=Veli-Cem-11-M-Soz,
+        103=Ali-Cem-11-H-TM,
+        104=Ayse-Can-10-H-MF,
+        105=Ayse-Cem-11-M-TM,
+        106=Fatma-Han-10-K-Soz]
+
+        aralarindaki farklar
+        1- yukaridaki map, bu Set
+        2- yukaridakinde {} kullaniyor, bu ise [ ]
+        3- yukaridakinde key ve value'ler her eleman icin bir arada ama ayri ayri bireyler
+        Entry'de ise K=V  ikisi birlikte bir element olusturuyor
          */
 
         // entry seti icerisindeki entry'leri biz de sira numarasi vererek yazdiralim

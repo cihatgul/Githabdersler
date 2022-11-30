@@ -9,15 +9,14 @@ public class C03_Maps {
         // ogrenciler map'inde subesi H olan ogrencilerin isim soyisim ve siniflarini yazdiralim
 
         Map<Integer, String> ogrenciMap = MapDepo.ornekMapOlustur();
+
         /*
-        {
-        101=Ali-Can-10-H-MF,
+        {101=Ali-Can-10-H-MF,
         102=Veli-Cem-11-M-Soz,
         103=Ali-Cem-11-H-TM,
         104=Ayse-Can-10-H-MF,
         105=Ayse-Cem-11-M-TM,
-        106=Fatma-Han-10-K-Soz
-        }
+        106=Fatma-Han-10-K-Soz}
          */
 
         ogrenciMap.put(107,"Hasan-Yan-12-H-MF");

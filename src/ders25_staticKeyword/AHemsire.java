@@ -11,13 +11,13 @@ public class AHemsire {
     String personelTelefon="Telefon belirtilmedi";
     @Override
     public String toString() {
-        return "AHemsire{" +
-                "personelIsim='" + personelIsim + '\'' +
-                ", personelAdresi='" + personelAdresi + '\'' +
-                ", personelTelefon='" + personelTelefon + '\'' +
-                ", \nhastaneIsmi='" + hastaneIsmi + '\'' +
-                ", hastaneAdresi='" + hastaneAdresi + '\'' +
-                ", bashekimIsmi='" + bashekimIsmi + '\'' +
+        return "AHemsire{"+
+                "\npersonelIsim='"+personelIsim+'\''+
+                "\npersonelAdresi='"+personelAdresi+'\''+
+                "\npersonelTelefon='"+personelTelefon+'\''+
+                "\nhastaneIsmi='"+hastaneIsmi+'\''+
+                "\nhastaneAdresi='"+hastaneAdresi+'\''+
+                "\nbashekimIsmi='"+bashekimIsmi+'\''+
                 '}';
 
     }

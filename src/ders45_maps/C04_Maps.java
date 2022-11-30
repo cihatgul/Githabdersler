@@ -9,15 +9,14 @@ public class C04_Maps {
     public static void main(String[] args) {
         // Ogrenci map'inde numarasi verilen sayilarin arasinda(sinirlar dahil) olan ogrencilerin
         // Isim soyisim ve Bolumlerini list olarak bize döndüren bir method olusturun
+
         /*
-        {
-        101=Ali-Can-10-H-MF,
+        {101=Ali-Can-10-H-MF,
         102=Veli-Cem-11-M-Soz,
         103=Ali-Cem-11-H-TM,
         104=Ayse-Can-10-H-MF,
         105=Ayse-Cem-11-M-TM,
-        106=Fatma-Han-10-K-Soz
-        }
+        106=Fatma-Han-10-K-Soz}
          */
 
         Map<Integer,String> ogrenciMap= MapDepo.ornekMapOlustur();

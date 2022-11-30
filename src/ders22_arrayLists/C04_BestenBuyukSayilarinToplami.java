@@ -23,6 +23,7 @@ public class C04_BestenBuyukSayilarinToplami {
         // 1- hangi data turunde degiskenlerle ugrasacaksiniz
         // 2- loop'un icerisinde herbir eleman geldiginde hangi isimle islem yapacaksiniz
         // 3- hangi array veya collection'dan elemanlar gelecek
+
         toplam=0;
 
         for (int each: arr  // arr'ye git herbir int'i bana getir

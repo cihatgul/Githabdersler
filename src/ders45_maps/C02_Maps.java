@@ -39,6 +39,7 @@ public class C02_Maps {
           Ayse-Cem-11-M-TM,
           Fatma-Han-10-K-Soz]
          */
+
         /*
            Normalde bilgiler arasina Java "," kullanir
            biz de virgul kullanabiliriz

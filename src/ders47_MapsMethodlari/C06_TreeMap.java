@@ -35,7 +35,6 @@ public class C06_TreeMap {
         System.out.println(mp1.ceilingKey("B")); // C
         System.out.println(mp1.ceilingEntry("H")); // H=3
 
-
         System.out.println(mp1.headMap("F")); // {A=5, C=7} // girilen deger haric basa kadar
         System.out.println(mp1.headMap("K")); // {A=5, C=7, F=8, H=3}
 

@@ -25,8 +25,6 @@ public class C01_putIfAbsent {
                                        ve eski var olan degeri bize dondurur
          */
 
-
-
         Map<Integer,String> mp2 =new HashMap<>();
 
         mp2.put(2,"S");
@@ -35,8 +33,6 @@ public class C01_putIfAbsent {
 
         System.out.println(mp2.putIfAbsent(3, "Z")); // K
         System.out.println(mp2); // {2=S, 3=K}
-
-
 
     }
 }

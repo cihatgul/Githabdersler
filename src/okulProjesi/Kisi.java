@@ -11,13 +11,11 @@ public class Kisi {
     private String tcNo;
     private String yas;
 
-
     public Kisi() {
 
         // generate'ye gidiyoruz, buradanda bos bir constructor olusturuyoruz
 
     }
-
 
     public Kisi(String isim, String soyisim, String tcNo, String yas) {
         this.isim = isim;

@@ -25,7 +25,7 @@ public class AnaMenu {
         Scanner scan=new Scanner(System.in);
 
         while (true){
-            char secim=scan.next().toUpperCase().charAt(0);
+            char secim=scan.next().toUpperCase().charAt(0); // toUpperCase kullanmamizin sebebi Q yada q girdiginde kabul etsin diye
 
             switch (secim){
                 case '1':{

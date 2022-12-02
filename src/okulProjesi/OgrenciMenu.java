@@ -20,7 +20,7 @@ public class OgrenciMenu implements Islemler {
     Scanner scan=new Scanner(System.in);
     void ogrMenu(){
         System.out.print("============= İŞLEMLER =============\n"+
-                           "1-EKLEME\n"+
+                            "1-EKLEME\n"+
                             "2-ARAMA\n"+
                             "3-LİSTELEME\n"+
                             "4-SİLME\n"+
@@ -29,20 +29,21 @@ public class OgrenciMenu implements Islemler {
 
 
         while (true){
-
             char secim=scan.next().toUpperCase().charAt(0);
 
             switch (secim){
                 case '1':{
                     ekleme();
                 }
-
                 case '2':{
                     arama();
                 }
-
-                case '3':{}
-                case '4':{}
+                case '3':{
+                    listeleme();
+                }
+                case '4':{
+                    cikis();
+                }
                 case 'Q':{}
 
             }
@@ -82,16 +83,16 @@ public class OgrenciMenu implements Islemler {
     public void arama() {
 
         if (!ogrenciList.isEmpty()){
-
             System.out.println("Arama yapilacak Tc no giriniz: ");
             String aranacakTc= scan.next();
-
             for (Ogrenci each:ogrenciList) {
-
                 if (each.getTcNo().equals(aranacakTc)){
-
                     System.out.println(each.toString());
 
+                }else {
+
+                    System.out.println(aranacakTc+" Tc no ya ait bilgi bulunamadi.");
+                    ogrMenu();
                 }
             }
             ogrMenu();
@@ -108,12 +109,12 @@ public class OgrenciMenu implements Islemler {
     public void listeleme() {
 
         if (!ogrenciList.isEmpty()){
-
             for (Ogrenci each:ogrenciList) {
-
                 System.out.println(each.toString());
 
             }
+            ogrMenu();
+
         } else {
             System.out.println("Ogrenci listesi bos");
             ogrMenu();
@@ -125,10 +126,32 @@ public class OgrenciMenu implements Islemler {
     @Override
     public void silme() {
 
+        if (!ogrenciList.isEmpty()){
+            System.out.println("Silme yapilacak Tc no giriniz: ");
+            String aranacakTc= scan.next();
+            for (int i = 0; i < ogrenciList.size(); i++) {
+                if (aranacakTc.equals(ogrenciList.get(i).getTcNo())){
+                    ogrenciList.remove(i);
+
+                    ogrMenu();
+                }
+            }
+            
+            ogrMenu();
+
+        } else{
+            System.out.println("Ogrenci listesi bos");
+            ogrMenu();
+
+        }
+
     }
 
     @Override
     public void cikis() {
+
+        AnaMenu anaMenu=new AnaMenu();
+        anaMenu.anaMenu();
 
     }
 }

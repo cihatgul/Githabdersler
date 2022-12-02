@@ -17,5 +17,4 @@ public interface Islemler {
     public void silme();
     public void cikis();
 
-
 }

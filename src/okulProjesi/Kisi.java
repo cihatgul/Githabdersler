@@ -9,7 +9,7 @@ public class Kisi {
     // ulasamayiz, get ve set ile yaparsak veri alisverisini saglarim bununla
 
     private String tcNo;
-    private String yas;
+    private int yas;
 
     public Kisi() {
 
@@ -17,69 +17,43 @@ public class Kisi {
 
     }
 
-    public Kisi(String isim, String soyisim, String tcNo, String yas) {
+    public Kisi(String isim, String soyisim, String tcNo, int yas) {
         this.isim = isim;
         this.soyisim = soyisim;
         this.tcNo = tcNo;
         this.yas = yas;
     }
 
-    public String getTcNo() { // burada diger claslardan TC numarami aliyorum
+    /*
+    private String isim'e ulasmak icin getIsim method'unu kullaniyoruz,
+    getIsim method'uyla biz private String isim'de ki icinde ki,
+    veriyi aliyoruz direk degiskene ulasamiyoruz
+     */
 
-        return tcNo;
+    public String getIsim() {return isim;}
 
-    }
+    public void setIsim(String isim) {this.isim = isim;}
 
-    public void setTcNo(String tcNo) { // burada diger claslardan TC numarama veri gonderiyorum
+    public String getSoyisim() {return soyisim;}
 
-        this.tcNo = tcNo;
+    public void setSoyisim(String soyisim) {this.soyisim = soyisim;}
 
-    }
+    public String getTcNo() {return tcNo;} // burada diger claslardan TC numarami aliyorum
 
-    public String getIsim() { // private String isim'e ulasmak icin getIsim method'unu kullaniyoruz,
-                              // getIsim method'uyla biz private String isim'de ki icinde ki
-                              // veriyi aliyoruz direk degiskene ulasamiyoruz
+    public void setTcNo(String tcNo) {this.tcNo = tcNo;} // burada diger claslardan TC numarama veri gonderiyorum
 
-        return isim;
+    public int getYas() {return yas;}
 
-    }
-
-    public void setIsim(String isim) {
-
-        this.isim = isim;
-
-    }
-
-    public String getSoyisim() {
-
-        return soyisim;
-
-    }
-
-    public void setSoyisim(String soyisim) {
-
-        this.soyisim = soyisim;
-
-    }
-
-    public String getYas() {
-
-        return yas;
-
-    }
-
-    public void setYas(String yas) {
-        this.yas = yas;
-    }
+    public void setYas(int yas) {this.yas = yas;}
 
     @Override
     public String toString() {
         // burayi eklememizin sebebi ekranda gormek icindir
         // burada ki bolum icin, generate'ye gidiyoruz toString kisminda olusturuyoruz
-        return "Kisi{" +
-                "isim='" + isim + '\'' +
-                ", soyisim='" + soyisim + '\'' +
-                ", yas='" + yas + '\'' +
-                '}';
+        return
+                "isim="+isim+
+                ", soyisim="+soyisim+
+                ", yas="+yas;
+
     }
 }

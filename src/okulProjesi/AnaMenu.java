@@ -19,8 +19,8 @@ public class AnaMenu {
                            "====================================\n"+
                            "1- ÖĞRENCİ İŞLEMLERİ\n"+
                            "2- ÖĞRETMEN İŞLEMLERİ\n"+
-                           "Q- ÇIKIŞ"+
-                           "SECIMINIZ: ");
+                           "Q- ÇIKIŞ\n"+
+                           "SECIMINIZ:");
 
         Scanner scan=new Scanner(System.in);
 
@@ -33,18 +33,16 @@ public class AnaMenu {
                     ogrMenu.ogrMenu();
 
                 }
-
                 case '2':{
-
+                     OgretmenMenu ogrtMenu=new OgretmenMenu();
+                     ogrtMenu.ogretmenMenu();
 
                 }
-
                 case 'Q':{
                     System.out.println("GÜLE GÜLE");
                     System.exit(0);
 
                 }
-
                 default:{
                     System.out.println("Gecerli deger giriniz");
                     anaMenu();

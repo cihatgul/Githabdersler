@@ -26,8 +26,10 @@ public class C05_SubstringOlustur {
 
         if (basIndexi>bitIndexi){
             System.out.println("Baslangic indexi, bitis indexinden buyuk olamaz");
+
         } else if (bitIndexi>=input.length()) {
             System.out.println("Bitis indexi String'in sinirlari disinda");
+
         }else{
             //     baslangic ve bitis indexlerine gore baslangic index'i dahil,
             //     bitis index'i haric olacak sekilde
@@ -35,9 +37,10 @@ public class C05_SubstringOlustur {
 
             for (int i = basIndexi ; i <bitIndexi ; i++) {
                 System.out.print(input.charAt(i));
+
             }
             System.out.println("");
-        }
 
+        }
     }
 }

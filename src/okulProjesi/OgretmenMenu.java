@@ -133,9 +133,11 @@ public class OgretmenMenu implements Islemler {
 
     @Override
     public void silme() {
+
         if (!ogretmenList.isEmpty()) {
             System.out.print("SİLMEK İSTEDİĞİNİZ TCNO YU GİRİNİZ: ");
             String tcNo = scan.next();
+
             for (int i = 0; i < ogretmenList.size(); i++) {
 
                 if (ogretmenList.get(i).getTcNo().equals(tcNo)) {
@@ -144,8 +146,8 @@ public class OgretmenMenu implements Islemler {
 
                 }
             }
-
         }
+
         else {
             System.out.println("ÖĞRETMEN LİSTENİZ BOŞ.");
             ogretmenMenu();

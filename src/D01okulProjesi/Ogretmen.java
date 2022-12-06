@@ -1,4 +1,4 @@
-package okulProjesi;
+package D01okulProjesi;
 
 public class Ogretmen extends Kisi {
 

@@ -1,4 +1,4 @@
-package biletProjesi;
+package D02biletProjesi;
 
 import java.util.Scanner;
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class C21_Deneme {
     /*
-    Soru 8 : Task kullanicidan dogum tarihini isteyin ve gelen tarihi LocalDate clasindan bir degiskene atayin.
+    Task kullanicidan dogum tarihini isteyin ve gelen tarihi LocalDate clasindan bir degiskene atayin.
     Daha sonra kullanicidan random tarih girmesini isteyin. Random tarih dogum tarihinizden sonra ise program kabul etmesin
     ve kullanici yeniden tarih girsin. Sonuc olarak girilen random tarih dogum gununuzden once olmali.
 

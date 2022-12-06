@@ -1,4 +1,4 @@
-package okulProjesi;
+package D01okulProjesi;
 
 import java.util.ArrayList;
 import java.util.Scanner;

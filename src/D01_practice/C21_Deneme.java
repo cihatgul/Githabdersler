@@ -1,5 +1,6 @@
 package D01_practice;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class C21_Deneme {
@@ -13,14 +14,47 @@ public class C21_Deneme {
     public static void main(String[] args) {
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("dogum yilini giriniz"); // kullanicidan dogum tarihini isteyin
+
+        int dYil;
+        int dAy;
+        int dGun;
+
+        System.out.println("Dogum yilini giriniz"); // kullanicidan dogum tarihini isteyin
+        dYil=scan.nextInt();
+
+        System.out.println("Dogum ayinizi giriniz");
+        dAy=scan.nextInt();
+
+        System.out.println("Dogum gununuzu giriniz");
+        dGun=scan.nextInt();
+
+        LocalDate dogumGunu=LocalDate.of(dYil,dAy,dGun);
+        System.out.println(dogumGunu);
 
 
 
+        System.out.println("Karsilastirmak istediginiz yili giriniz");
+        dYil=scan.nextInt();
+
+        System.out.println("Karsilastirmak istediginiz ayi giriniz");
+        dAy=scan.nextInt();
+
+        System.out.println("Karsilastirmak istediginiz gunu giriniz");
+        dGun=scan.nextInt();
+
+        LocalDate girilenTarih=LocalDate.of(dYil,dAy,dGun);
+
+        // karsilastirmada isAfter() kullaniriz
+
+        if (girilenTarih.isAfter(dogumGunu)){
+
+            System.out.println("gecersiz giris, girdiginiz tarih dogum tarihinden ince olmali");
 
 
+        }else {
 
+            System.out.println("giris kabul edildi");
 
+        }
     }
-
 }

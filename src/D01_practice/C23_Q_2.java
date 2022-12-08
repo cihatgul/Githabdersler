@@ -15,6 +15,7 @@ public class C23_Q_2 {
     */
 
     public static void main(String[] args) {
+
         int[] arr={3, 5, 1, 2, 7, 9, 2, 3, 5, 7};
         int[] yeniArr=new int[4];
 
@@ -27,12 +28,12 @@ public class C23_Q_2 {
 
             for (int i = 0; i <= sayac; i++) {
 
-                toplam+=arr[indexBul-1+i];
+                toplam=toplam+arr[indexBul-1+i];
 
             }
             yeniArr[sayac]=toplam;
             sayac++;
-            indexBul+=sayac;
+            indexBul=indexBul+sayac;
 
         }while (sayac<yeniArr.length);
 

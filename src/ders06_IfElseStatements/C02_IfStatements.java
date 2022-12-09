@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C02_IfStatements {
     public static void main(String[] args) {
 
-        // Soru 4- Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
+        // Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
         // ucgen eskenar ise “Eskenar ucgen” yazdirin.
 
         Scanner scan = new Scanner(System.in);

@@ -13,9 +13,8 @@ public class C04_charAt {
         System.out.println(str.charAt(10)); // bana sonuncu karakteri yazdirin r
 
         /*
-          bir metindeki karakter sayisi ile son index arasinda 1 fark vardir
-          bu metin icin  karakter sayisi 11
-                         son index 10 dur.
+        bir metindeki karakter sayisi ile son index arasinda 1 fark vardir
+        bu metin icin  karakter sayisi 11 son index 10 dur.
          */
 
         // System.out.println(str.charAt(11)); // StringIndexOutOfBoundsException

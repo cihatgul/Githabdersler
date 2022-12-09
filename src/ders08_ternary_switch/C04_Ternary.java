@@ -3,7 +3,7 @@ package ders08_ternary_switch;
 public class C04_Ternary {
     public static void main(String[] args) {
 
-        // Soru 2- Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
+        // Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
         // ucgen eskenar ise “Eskenar ucgen” yazdirin, degilse “Eskenar degil” yazdirin.
 
         int kenar1 =0;

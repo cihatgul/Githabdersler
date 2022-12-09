@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C08_IfElseIfStatements {
 
     public static void main(String[] args) {
-        // Soru 1- Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
+        // Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
         // kenar uzunluklari 0 veya negatifse gecersiz kenar uzunlugu yazdirin
         // ucgen eskenar ise “Eskenar ucgen” yazdirin, degilse “Eskenar degil” yazdirin.
 

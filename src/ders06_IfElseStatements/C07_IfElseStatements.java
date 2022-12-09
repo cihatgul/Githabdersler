@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C07_IfElseStatements {
 
     public static void main(String[] args) {
-        // Soru 5- Kullanicidan bir harf isteyin,
+        // Kullanicidan bir harf isteyin,
         // girilen karakter kucuk harf ise onu buyuk harf olarak yazdirin,
         // yoksa girilen harfi yazdirin
 

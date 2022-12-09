@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class C04_NestedIfElseStatements {
     public static void main(String[] args) {
-        // Soru 1- Kullanicidan cinsiyetini ve yasini alin, Kadin, 60 yas ve uzeri ,
+
+        // Kullanicidan cinsiyetini ve yasini alin, Kadin, 60 yas ve uzeri ,
         // Erkek 65 yas ve uzeri emekli olabilir.
         // Cinsiyet ve yasini dikkate alarak
         // “Emekli olabilirsin” veya “Emekli olmak icin .. Yil daha calisman gerekir” yazdirin.
@@ -21,8 +22,6 @@ public class C04_NestedIfElseStatements {
         if (yas<15){
             System.out.println("Hatali yas girisi");
         } else if (yas<60) {
-            // emekli olamaz, calismasi gereken sure cinsiyete bagli
-            System.out.println("emekli olamazsin");
             if (cinsiyet=='K' || cinsiyet=='k'){
                 System.out.println("daha "+ (60-yas)+ " sene calismalisin");
             } else if (cinsiyet=='E' || cinsiyet=='e') {

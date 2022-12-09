@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C04_IfElseStatements {
 
     public static void main(String[] args) {
-        // Soru 4- Kullanicidan bir karakter girmesini isteyin,
+        // Kullanicidan bir karakter girmesini isteyin,
         // girilen karakterin buyuk harf olup olmadigini yazdirin.
 
         Scanner scan = new Scanner(System.in);

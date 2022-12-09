@@ -1,5 +1,7 @@
 package ders25_staticKeyword;
 
+import javax.swing.*;
+
 public class CAHemsireRunner {
 
     public static void main(String[] args) {
@@ -20,6 +22,12 @@ public class CAHemsireRunner {
 
         System.out.println("\nh1: "+h1);
         System.out.println("\nh2: "+h2);
+
+        CAHemsire h3=new CAHemsire();
+        System.out.println("\nh3: "+h3);
+
+        h3.hastaneIsmi="Java Hastanesi";
+        System.out.println("\n"+h2.hastaneIsmi); // Java Hastanesi
 
 
 

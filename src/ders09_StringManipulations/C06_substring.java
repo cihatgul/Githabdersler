@@ -14,6 +14,7 @@ public class C06_substring {
 
         // son karakteri String olarak kaydedin
         String sonHarf= ""+str.charAt(str.length()-1);
+        System.out.println("Buna bakalim = "+sonHarf);
 
         sonHarf= str.substring(str.length()-1);
         System.out.println(sonHarf); // p

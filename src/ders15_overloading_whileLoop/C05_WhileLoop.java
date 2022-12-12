@@ -6,11 +6,11 @@ public class C05_WhileLoop {
     public static void main(String[] args) {
 
         /*
-          Kullanicidan toplanmak uzere sayi alin
-          sayilarin toplami 500'e esit olur veya gecerse
-          girilen sayi adedi,
-          girilen sayilarin toplamini ve
-          "Bu kadar yeter" yazdirin
+        Kullanicidan toplanmak uzere sayi alin
+        sayilarin toplami 500'e esit olur veya gecerse
+        girilen sayi adedi,
+        girilen sayilarin toplamini ve
+        "Bu kadar yeter" yazdirin
          */
 
         Scanner scan = new Scanner(System.in);

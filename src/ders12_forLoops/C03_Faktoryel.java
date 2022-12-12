@@ -13,12 +13,10 @@ public class C03_Faktoryel
         int faktoryel= 1;
 
         for (int i = sayi; i >=1; i--) {
-
             faktoryel= faktoryel*i ;
         }
 
         System.out.println(faktoryel);
-
 
         // 1'den 100'e (sinirlar dahil)kadar olan sayilari toplayin
 

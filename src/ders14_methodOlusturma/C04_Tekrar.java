@@ -22,7 +22,6 @@ public class C04_Tekrar {
 
         System.out.println(C03_StringTerseCevirme.stringiTerseCevir("Bu cumleyi terse cevirin"));
 
-
         String str="Java cok guzel";
         // str'i buyuk harf olarak yazdirin
 

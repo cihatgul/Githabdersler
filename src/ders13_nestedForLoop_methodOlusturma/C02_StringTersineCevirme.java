@@ -2,7 +2,7 @@ package ders13_nestedForLoop_methodOlusturma;
 
 public class C02_StringTersineCevirme {
     public static void main(String[] args) {
-        // Soru 10 (interview)- Kullanicidan bir String isteyin
+        // Kullanicidan bir String isteyin
         // ve String’i tersine cevirip kaydedin.
 
         String input= "Java"; // Java her gecen gun guzellesiyor

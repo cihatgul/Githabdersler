@@ -4,12 +4,12 @@ public class C05_DikkatEdilecekler {
 
     public static void main(String[] args) {
 
-        /*  Sonsuz loop
+        /*
+        Sonsuz loop
         for (int i = 0; i >-10; i++) {
             System.out.print(i +" ");
-        }
+            }
         */
-
 
         // ilk degher icin bitis sarti true olmuyorsa
         // for body'si hic devreye giremez

@@ -6,7 +6,7 @@ public class C06_WhileLoop {
     public static void main(String[] args) {
 
         /*
-        Soru : Kullanicidan sifre isteyin asagidaki sartlari saglamayan sifrelerde hatalari yazdirip,
+        Kullanicidan sifre isteyin asagidaki sartlari saglamayan sifrelerde hatalari yazdirip,
         kullanicinin yeni sifre girmesi isteyin
         Gecerli bir sifre yazilincaya kadar bu islemi tekrar edin
         gecerli sifre yazilinca “sifreniz basari ile kaydedildi” yazdirin
@@ -27,12 +27,12 @@ public class C06_WhileLoop {
             sifre=scan.nextLine();
             bayrak=0;
 
-            if (!(sifre.charAt(0)>='a' && sifre.charAt(0)<='z')){
+            if ((sifre.charAt(0)>='A' && sifre.charAt(0)<='Z')){
                 System.out.println("Sifrenin ilk karakteri kucuk harf olmali");
                 bayrak++;
             }
 
-            if (!(sifre.charAt(sifre.length()-1)>='0' && sifre.charAt(sifre.length()-1)<='9' )){
+            if (!(sifre.charAt(sifre.length()-1)>='0' && sifre.charAt(sifre.length()-1)<='9')){
                 System.out.println("Sifrenin son karakteri sayi olmali");
                 bayrak++;
             }

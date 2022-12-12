@@ -3,7 +3,7 @@ package ders14_methodOlusturma;
 public class C05_SubstringOlustur {
 
     /*
-    Soru 1- Kullanicidan input olarak bir String alin,
+    Kullanicidan input olarak bir String alin,
     baslangic ve bitis indexlerine gore baslangic index'i dahil, bitis index'i haric olacak sekilde
     aradaki harfleri yazdiran bir method olusturun.
     - kullanici baslangic degeri olarak, bitis degerinden buyuk bir sayi girerse, hata mesaji verin
@@ -31,16 +31,15 @@ public class C05_SubstringOlustur {
             System.out.println("Bitis indexi String'in sinirlari disinda");
 
         }else{
-            //     baslangic ve bitis indexlerine gore baslangic index'i dahil,
-            //     bitis index'i haric olacak sekilde
-            //     aradaki harfleri yazdiran bir method olusturun.
+            // baslangic ve bitis indexlerine gore baslangic index'i dahil,
+            // bitis index'i haric olacak sekilde
+            // aradaki harfleri yazdiran bir method olusturun.
 
             for (int i = basIndexi ; i <bitIndexi ; i++) {
                 System.out.print(input.charAt(i));
 
             }
             System.out.println("");
-
         }
     }
 }

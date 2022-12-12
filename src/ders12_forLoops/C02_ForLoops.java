@@ -4,9 +4,7 @@ public class C02_ForLoops {
 
     public static void main(String[] args) {
 
-
         for (int i = 1; i <= 10; i++) {
-
             System.out.print(i + " ");
 
         }
@@ -15,7 +13,6 @@ public class C02_ForLoops {
         // 2 basamakli sayilardan 7 ile bolunebilenleri yan yana yazdirin
 
         for (int i = 10; i <100 ; i++) {
-
             if (i%7==0) System.out.print(i +" ");
         }
 
@@ -31,7 +28,6 @@ public class C02_ForLoops {
         // 1'den 10'a kadar (sinirlar dahil) sayilarin karelerini yazdiralim
 
         for (int i = 1; i <=10 ; i++) {
-
             System.out.print(i*i + " ");
         }
 

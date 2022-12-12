@@ -3,7 +3,7 @@ package ders15_overloading_whileLoop;
 public class C08_RakamlarToplami {
 
     public static void main(String[] args) {
-        // Soru 2- While loop kullanarak kullanicidan alinan sayinin rakamlar toplamini bulun.
+        // While loop kullanarak kullanicidan alinan sayinin rakamlar toplamini bulun.
 
         int sayi = 14531111;
 

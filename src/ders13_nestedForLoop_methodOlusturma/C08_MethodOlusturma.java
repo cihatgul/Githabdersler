@@ -12,7 +12,6 @@ public class C08_MethodOlusturma {
          */
 
         isteToplaYazdir();
-        isteToplaYazdir();
 
     }
     public static void isteToplaYazdir(){

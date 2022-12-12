@@ -1,6 +1,7 @@
 package ders14_methodOlusturma;
 
 public class C02_StringConcate {
+
     // verilen iki String'i parametre olarak kabul edip
     // bu iki String'i aralarinda bir bosluk olan tek bir String olarak
     // main method'a donduren bir method olusturun

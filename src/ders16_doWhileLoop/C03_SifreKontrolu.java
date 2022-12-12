@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class C03_SifreKontrolu {
     public static void main(String[] args) {
+
         /*
-        Soru 2- Kullanicidan bir sifre girmesini isteyin.
+        Kullanicidan bir sifre girmesini isteyin.
         Girilen sifreyi asagidaki sartlara gore kontrol edin ve sifredeki hatalari yazdirin.
 	    Kullanici gecerli bir sifre girinceye kadar bu islemi tekrar edin
 	    ve gecerli sifre girdiginde “Sifreniz Kabul edilmistir” yazdirin.
@@ -24,8 +25,10 @@ public class C03_SifreKontrolu {
         do{
             System.out.println("Lutfen bir sifre giriniz");
             sifre= scan.nextLine();
+
             // tum hatalari soylemesini istiyorsak
             // bagimsiz if cumleleri ve bayrak kullanmak zorundayiz
+
             bayrak=0;
             int sonuc = kucukHarfKontroluYap(sifre);
             // kucuk harf kontrolu yapan bir method olusturalim
@@ -117,6 +120,5 @@ public class C03_SifreKontrolu {
             System.out.println("Sifre kucuk harf icermelidir");
             return 0;
         }else return 1;
-
     }
 }

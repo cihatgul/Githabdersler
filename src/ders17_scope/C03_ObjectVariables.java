@@ -9,13 +9,13 @@ public class C03_ObjectVariables {
     int persYasi;
 
     /*
-      Class level variable'larin scope'u tum class'dir
-      static kelimesi ile isaretlenen variable'lara
-      class icerisinde heryerden ulasilabildigi icin diger adi class variables'dir.
-      static kelimesi ile isaretlenmeyen variable'lara ise instance variable denir.
-      instance variable'lar objelere bagli olduklarindan
-      bu variable'larin diger adi object variables'dir.
-     */
+    Class level variable'larin scope'u tum class'dir
+    static kelimesi ile isaretlenen variable'lara
+    class icerisinde heryerden ulasilabildigi icin diger adi class variables'dir.
+    static kelimesi ile isaretlenmeyen variable'lara ise instance variable denir.
+    instance variable'lar objelere bagli olduklarindan
+    bu variable'larin diger adi object variables'dir.
+    */
     public static void main(String[] args) {
 
     }

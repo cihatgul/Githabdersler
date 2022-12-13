@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class C06_KullaniciyaArrayOlusturma {
 
     public static void main(String[] args) {
-        // Soru 5- Kullanicidan array’in boyutunu
+        // Kullanicidan array’in boyutunu
         // ve elementlerini alip array’i olusturan
         // ve bize donduren bir method olusturun.
 
@@ -20,7 +20,6 @@ public class C06_KullaniciyaArrayOlusturma {
         System.out.println("Olusturulacak array'in boyutunu giriniz");
 
         int length= scan.nextInt();
-
         int[] kullaniciArrayi= new int[length];
 
         for (int i = 0; i <length ; i++) {

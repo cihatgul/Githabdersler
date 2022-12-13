@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class C02_EnBuyukEnKucukElementiBulma {
 
     public static void main(String[] args) {
+
         // Verilen bir int array'de en kucuk ve en buyuk sayilari
         // yazdiran bir method olusturun
 

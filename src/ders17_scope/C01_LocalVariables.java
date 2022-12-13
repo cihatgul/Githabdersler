@@ -3,6 +3,7 @@ package ders17_scope;
 public class C01_LocalVariables {
 
     public static void main(String[] args) {
+
         // bir method'un icerisinde olusturulan variable'larin scope'u
         // icinde olusturulduklari method'dur
         // o method'un disindan ULASILAMAZLAR

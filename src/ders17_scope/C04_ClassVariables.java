@@ -14,7 +14,8 @@ public class C04_ClassVariables {
 
         System.out.println(C03_ObjectVariables.hastaSayisi); // 23456
 
-    } // kod takibi main method'dan baslar
+    }
+    // kod takibi main method'dan baslar
     // main method'un sonuna gelindiginde hersey biter
     // tum degisimler resetlenir
     // variable degerleri bastaki hallerine doner

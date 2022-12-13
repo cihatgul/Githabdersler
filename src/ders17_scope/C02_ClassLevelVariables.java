@@ -4,6 +4,7 @@ public class C02_ClassLevelVariables {
 
     // class level variable'lar method'larin disinda olusturulur
     // genel kullanim en ustte olusuturulmalaridir.
+
     static String hastaneismi="Yildiz hastanesi";
     static int hastaSayisi= 23453;
     static String basHekimIsmi;

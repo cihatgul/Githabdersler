@@ -14,7 +14,7 @@ public class C23_ArraydeElemanArama {
         elemanArr(arr,arananEleman);
     }
 
-    private static void elemanArr(int[] arr, int arananEleman) {
+    static void elemanArr(int[] arr, int arananEleman) {
 
         int sayac=0;
 

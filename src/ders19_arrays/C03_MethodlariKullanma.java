@@ -13,7 +13,7 @@ public class C03_MethodlariKullanma {
 
         // verilen bir int array'in elementlerini 2 artirin
 
-        int[] arr= {2,3,4};
+        int[] arr={2,3,4};
         arr= C03_ArrayElementleriniArtirma.elementleri2Artir(arr);
         System.out.println(Arrays.toString(arr)); // [4, 5, 6]
 

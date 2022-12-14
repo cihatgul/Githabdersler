@@ -11,11 +11,12 @@ public class C04_BinarySearch {
         System.out.println(Arrays.binarySearch(arr,5)); // -2
         System.out.println(Arrays.binarySearch(arr,1)); // 0
         System.out.println(Arrays.binarySearch(arr,9)); // -10
+
         /*
-          Binary search method'unun dogru sonuclar verebilmesi icin
-          oncelikle sort method'u kullanilmalidir.
-          sort() kullanmadan binarySearch() ile yapilan aramanin sonucu belli olmaz
-          dogru sonuc da verebilir, yanlis sonuc da
+        Binary search method'unun dogru sonuclar verebilmesi icin
+        oncelikle sort method'u kullanilmalidir.
+        sort() kullanmadan binarySearch() ile yapilan aramanin sonucu belli olmaz
+        dogru sonuc da verebilir, yanlis sonuc da
          */
 
         Arrays.sort(arr);
@@ -26,9 +27,11 @@ public class C04_BinarySearch {
         System.out.println(Arrays.binarySearch(arr,1)); // 1
         System.out.println(Arrays.binarySearch(arr,9)); // 8
 
-        // array'de olmayan bir eleman aratirsak
-        // java once o sayi array'de olsa nerede olurdu onu bulur
-        // sonra buldugu bu SIRA'yi - isareti ile verir
+        /*
+        array'de olmayan bir eleman aratirsak
+        java once o sayi array'de olsa nerede olurdu onu bulur
+        sonra buldugu bu SIRA'yi - isareti ile verir
+         */
 
         System.out.println(Arrays.binarySearch(arr,-3)); // -1
         System.out.println(Arrays.binarySearch(arr,4)); // -5

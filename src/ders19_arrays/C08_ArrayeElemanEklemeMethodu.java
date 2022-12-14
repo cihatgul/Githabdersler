@@ -29,6 +29,5 @@ public class C08_ArrayeElemanEklemeMethodu {
         yeniArr[yeniArr.length-1]= eklenecekSayi;
 
         return yeniArr;
-
     }
 }

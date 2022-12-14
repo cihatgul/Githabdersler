@@ -1,13 +1,11 @@
-package ders19_arrays;
+package D07_practice3;
 
 import java.util.Arrays;
 
-public class C06_ArrayeyeniDegerAtama {
-
+public class C29_ArrayeyeniDegerAtama {
     public static void main(String[] args) {
 
-        String str= "java";
-
+        String str="java";
         str="hava";
 
         /*
@@ -22,7 +20,7 @@ public class C06_ArrayeyeniDegerAtama {
 
         arr1=arr2;
 
-        System.out.println(Arrays.toString(arr1)); // [A, B, C]
+        System.out.println(Arrays.toString(arr1));  // [A, B, C]
 
         // 2- istedigimiz uzunlukta yeni bos bir array degeri atayabiliriz
 
@@ -34,6 +32,10 @@ public class C06_ArrayeyeniDegerAtama {
 
         // arr1={"g","h"}; olmaz
 
-        int[] arr = {3,4,5};
+        int[] arr={3,4,5};
+
+
+
+
     }
 }

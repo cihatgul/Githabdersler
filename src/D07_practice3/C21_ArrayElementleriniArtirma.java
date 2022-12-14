@@ -21,7 +21,7 @@ public class C21_ArrayElementleriniArtirma {
 
     }
 
-    private static int[] elementleriArtirma(int[] arr) {
+    static int[] elementleriArtirma(int[] arr) {
 
         for (int i = 0; i < arr.length; i++) {
             arr[i]=arr[i]+2;

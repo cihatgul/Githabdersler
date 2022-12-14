@@ -2,7 +2,7 @@ package ders19_arrays;
 
 import java.util.Arrays;
 
-public class C05_StringSplitMethodu {
+public class C05_VerilenStrDaKacTaneEHarfiOldugunuBulunuz {
 
     public static void main(String[] args) {
 

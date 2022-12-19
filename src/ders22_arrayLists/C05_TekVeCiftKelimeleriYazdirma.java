@@ -6,16 +6,16 @@ import java.util.List;
 public class C05_TekVeCiftKelimeleriYazdirma {
 
     public static void main(String[] args) {
-        //Soru 3- Verilen String bir array’deki her bir elementi kontrol edip,
+
+        // Verilen String bir array’deki her bir elementi kontrol edip,
         //	- Kelimenin uzunlugu cift sayi ise ilk yarisini
         //	- Kelimenin uzunlugu tek sayi ise ortadaki harf dahil ikinci yarisini
         //	yeni bir listeye ekleyip yazdirin.
 
-        String[] arr = {"Sumeyra","Mehmet","Ekrem","Yilmaz","Ayse"};
-        List<String> yeniList = new ArrayList<>();
+        String[] arr={"Sumeyra","Mehmet","Ekrem","Yilmaz","Ayse"};
+        List<String> yeniList=new ArrayList<>();
 
-        for (String each: arr
-        ) {
+        for (String each:arr) {
 
             if (each.length() %2==0){ // uzunlugu cift
 

@@ -3,7 +3,7 @@ package ders21_arrayLists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C02_TopluElemanEkleme {
+public class C02_ElemanlariListelemek {
 
     public static void main(String[] args) {
 

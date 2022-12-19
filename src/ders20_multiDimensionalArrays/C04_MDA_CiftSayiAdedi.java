@@ -10,15 +10,13 @@ public class C04_MDA_CiftSayiAdedi {
         int sayac=0;
 
         for (int i = 0; i < arr.length; i++) {
-
             for (int j = 0; j < arr[i].length; j++) {
-
-                if (arr[i][j] %2 == 0){
+                if (arr[i][j]%2==0){
                     sayac++;
                 }
             }
         }
-        System.out.println("Array'deki cif sayi adedi : " + sayac); //5
+        System.out.println("Array'deki cift sayi adedi: "+sayac); //5
 
     }
 }

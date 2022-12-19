@@ -22,5 +22,6 @@ public class Deneme {
         Deneme dnm2=new Deneme(10,12);
         System.out.println(dnm1.b);
 
+
     }
 }

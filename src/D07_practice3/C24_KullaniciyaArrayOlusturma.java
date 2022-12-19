@@ -6,9 +6,8 @@ import java.util.Scanner;
 public class C24_KullaniciyaArrayOlusturma {
     public static void main(String[] args) {
 
-        // Kullanicidan array’in boyutunu
-        // ve elementlerini alip array’i olusturan
-        // ve bize donduren bir method olusturun.
+        // Kullanicidan array’in boyutunu elementlerini
+        // alip array’i olusturan ve bize donduren bir method olusturun.
 
         int[] kullaniciArraysOlusturmak=arraysOlustur();
 

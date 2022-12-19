@@ -11,7 +11,6 @@ public class C06_remove {
         List<Integer> sayilar= new ArrayList<>();
 
         for (int i = 0; i < arr.length ; i++) {
-
             sayilar.add(arr[i]);
         }
 

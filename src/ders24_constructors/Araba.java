@@ -9,14 +9,12 @@ public class Araba {
     int fiyat;
 
     public Araba(String marka, String model, String yakit, int yil, int fiyat) {
-        this.marka = marka;
-        this.model = model;
-        this.yakit = yakit;
-        this.yil = yil;
-        this.fiyat = fiyat;
+        this.marka=marka;
+        this.model=model;
+        this.yakit=yakit;
+        this.yil=yil;
+        this.fiyat=fiyat;
     }
-
-
 
     public Araba (String mrk,String mdl){
         marka=mrk;
@@ -24,13 +22,12 @@ public class Araba {
     }
 
     public Araba(String marka, String model, int fiyat) {
-        this.marka = marka;
-        this.model = model;
-        this.fiyat = fiyat;
+        this.marka=marka;
+        this.model=model;
+        this.fiyat=fiyat;
     }
 
     public Araba(){
-
     }
 
     public String toString() {

@@ -11,14 +11,12 @@ public class C02_TamBolenlerListesi {
         // bir liste olarak bize donduren bir method olusturun.
 
         int input= 1280;
-
         System.out.println(tamBolenlerListesiOlustur(input));
 
     }
-
     public static List<Integer> tamBolenlerListesiOlustur(int input){
 
-        List<Integer> tamBolenlerListesi= new ArrayList<>();
+        List<Integer> tamBolenlerListesi=new ArrayList<>();
 
         for (int i = 1; i <=input ; i++) {
 

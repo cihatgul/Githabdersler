@@ -3,7 +3,7 @@ package D08_practice4;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C10_TopluElemanEkleme {
+public class C10_ElemanlariListelemek {
     public static void main(String[] args) {
 
         List<String> harfler=new ArrayList<>();

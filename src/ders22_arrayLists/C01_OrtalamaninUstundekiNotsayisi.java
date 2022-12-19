@@ -19,8 +19,8 @@ public class C01_OrtalamaninUstundekiNotsayisi {
         raporla(notlar);
 
     }
-
     public static void raporla(List<Double> notlar) {
+
         // sinif sayisini, sinif ortalamasini ve kac kisinin ortalamanin ustunde not aldigini yazdirin
 
         int ogrenciSayisi=notlar.size();
@@ -31,7 +31,6 @@ public class C01_OrtalamaninUstundekiNotsayisi {
         // notlar toplamini bulalim
 
         for (int i = 0; i <notlar.size() ; i++) {
-
             notlarToplami += notlar.get(i);
         }
 
@@ -42,7 +41,6 @@ public class C01_OrtalamaninUstundekiNotsayisi {
         // ortalama ustundeki ogrenci sayisini bulalim
 
         for (int i = 0; i <notlar.size() ; i++) {
-
             if (notlar.get(i)>sinifNotOrtalamasi){
                 ortalamaUstundekiOgrenciSayisi++;
             }
@@ -57,8 +55,7 @@ public class C01_OrtalamaninUstundekiNotsayisi {
 
     public static List<Double> listeOlustur(){
 
-        List<Double> notlar= new ArrayList<>();
-
+        List<Double> notlar=new ArrayList<>();
         Scanner scan= new Scanner(System.in);
         Double girilenNot=5.0;
 

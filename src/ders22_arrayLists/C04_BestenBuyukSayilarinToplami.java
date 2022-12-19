@@ -10,12 +10,11 @@ public class C04_BestenBuyukSayilarinToplami {
         int toplam=0;
 
         for (int i = 0; i < arr.length ; i++) {
-
             if (arr[i]>5){
                 toplam += arr[i];
-
             }
         }
+
         System.out.println("for loop ile : " + toplam);
 
         // for-each loop daha basit bir kurgu ile calisir
@@ -26,14 +25,12 @@ public class C04_BestenBuyukSayilarinToplami {
 
         toplam=0;
 
-        for (int each: arr  // arr'ye git herbir int'i bana getir
-        ) {
-
+        for (int each: arr) { // arr'ye git herbir int'i bana getir
             if (each>5){
                 toplam += each;
             }
         }
-        System.out.println("for-each loop ile toplam : " + toplam);
+        System.out.println("for-each loop ile toplam: "+toplam);
 
     }
 }

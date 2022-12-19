@@ -31,11 +31,11 @@ public class DArabaRunner {
 
         // arb2'nin ozelliklerini yazdirmak istesek
 
-        System.out.println("Marka : "+arb2.marka+
-                "\nModel : "+arb2.model+
-                "\nYakit : "+arb2.yakit+
-                "\nYil   : "+arb2.yil+
-                "\nFiyat : "+arb2.fiyat);
+        System.out.println("Marka: " +arb2.marka+
+                           "\nModel: "+arb2.model+
+                           "\nYakit: "+arb2.yakit+
+                           "\nYil   : "+arb2.yil+
+                           "\nFiyat : "+arb2.fiyat);
 
         DAraba arb3=new DAraba();
 

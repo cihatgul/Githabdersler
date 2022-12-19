@@ -7,7 +7,7 @@ public class C05_set {
 
     public static void main(String[] args) {
 
-        int[] arr = {1,2,4,3,5,3,5,2,5,1,2,4,5,3,4,5};
+        int[] arr={1,2,4,3,5,3,5,2,5,1,2,4,5,3,4,5};
 
         // list.set(index, yeniDeger) method'u
         // istenen index'deki eski degeri silip bize dondurur
@@ -16,7 +16,6 @@ public class C05_set {
         List<Integer> sayilar= new ArrayList<>();
 
         for (int i = 0; i < arr.length ; i++) {
-
             sayilar.add(arr[i]);
         }
 
@@ -27,6 +26,5 @@ public class C05_set {
         int eskiDeger= sayilar.set(1,9);
         System.out.println(eskiDeger);
         System.out.println(sayilar);
-
     }
 }

@@ -6,9 +6,9 @@ public class C01_PassByValue {
 
         double fiyat = 100;
 
-        System.out.println(indirimUygula(fiyat));// 90
-        System.out.println(indirimUygula(fiyat));//90
-        System.out.println(indirimUygula(fiyat));//90
+        System.out.println(indirimUygula(fiyat)); // 90
+        System.out.println(indirimUygula(fiyat)); // 90
+        System.out.println(indirimUygula(fiyat)); // 90
 
         System.out.println(fiyat); // 100
 
@@ -18,7 +18,7 @@ public class C01_PassByValue {
 
     }
     /*
-    Kodlarimizin anlasi;ir olmasi icin main method'dan diger method'lara
+    Kodlarimizin anlasilir olmasi icin main method'dan diger method'lara
     parametre olarak gonderdigimiz variable'lar icin ayni isimli variable
     olusturmayi TERCIH EDERIZ
     Java method'lar arasinda gecis yaparken variable'i degil

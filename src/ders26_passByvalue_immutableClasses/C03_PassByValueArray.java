@@ -17,7 +17,6 @@ public class C03_PassByValueArray {
         System.out.println("Method call'dan sonra main method icinde arr : " + Arrays.toString(arr));
 
     }
-
     public static void elemntleri5Artir(int[] arr){
 
         for (int i = 0; i <arr.length ; i++) {

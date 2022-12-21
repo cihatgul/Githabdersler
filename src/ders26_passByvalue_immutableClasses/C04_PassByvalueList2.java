@@ -37,7 +37,7 @@ public class C04_PassByvalueList2 {
         sayilar=yeniList;
         // ve sayilar list'ini yazdirin
 
-        System.out.println("method'da sayilar listesinin son hali : " + sayilar);
+        System.out.println("method'da sayilar listesinin son hali: "+sayilar);
 
     }
 }
